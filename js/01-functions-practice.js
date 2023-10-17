@@ -24,12 +24,12 @@
 // }
 // percentOf()
 //STEP 4
-const findModulus = (num1, num2) =>{
-    num1 = prompt("input number 1")
-    num2 = prompt("input number 2")
-    modulus = num1%num2
-    console.log(`${modulus} is the modulus of ${num1} and ${num2}`)
+// const findModulus = (num1, num2) =>{
+//     num1 = prompt("input number 1")
+//     num2 = prompt("input number 2")
+//     modulus = num1%num2
+//     console.log(`${modulus} is the modulus of ${num1} and ${num2}`)
 
-}
-findModulus()
+// }
+// findModulus()
 //STEP 5
