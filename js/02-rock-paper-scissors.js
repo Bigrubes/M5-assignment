@@ -7,21 +7,21 @@ const rps = (computer) =>{
         user = prompt("Let's play Rock, Paper Scissors! Rock, Paper, Scissors. Shoot!")
     }
 
-      const  num = Math.round(Math.random()*3+1)
+      const  num = Math.round(Math.random()*2)
         switch (num){
-            case 1:
+            case 0:
                 computer="rock"
                 break
-            case 2:
+            case 1:
                 computer="paper"
                 break
-            case 3:
+            case 2:
                 computer="scissors"
                 break
                 }  
 
             if(user===computer){
-                        alert("Tie Game. You chose the same as the computer.")
+                        alert("TIE GAME. You chose the same as the computer.")
                     }else if(user==="rock" && computer ==="paper"){
                         alert(`You chose ${user} and the computer chose ${computer}. You Lose!`)
                     } else if(user==="rock" && computer==="scissors"){

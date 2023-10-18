@@ -1,13 +1,13 @@
 // ADD A FUNCTION CALLED CALCULATE
-const calculate = (num1,num2, operation, equation) => {
+const calculate = (x,y, operation, equation) => {
 
 
 // COLLECT FIRST NUMBER FROM USER
-num1 = prompt("Enter first number in calculation")
-console.log(num1)
+x = prompt("Enter first number in calculation")
+console.log(x)
 // COLLECT SECOND NUMBER FROM USER
-num2 = prompt("Enter second number in calculation")
-console.log(num2)
+y = prompt("Enter second number in calculation")
+console.log(y)
 // COLLECT OPERATION TO PERFORM (+,-,*,/) FROM USER
 // operation = prompt('Please choose an operation:  "+", "-", "*" or "/"')
 // CALL THE FUNCTION AND RETURN THE RESULT WITHIN AN ALERT
@@ -22,28 +22,28 @@ console.log(num2)
 
 switch(operation){
     case "*":
-        alert(num1*num2)
+        alert(`${x} * ${y} = ${x*y}`)
         break
     case "-":
-        alert(num1 - num2)
+        alert(`${x} - ${y} = ${x-y}`)
         break
     case  "/":
-        alert(num1/num2)
+        alert(`${x} / ${y} = ${x/y}`)
         break
     case "+":
-        alert(parseInt(num1) + parseInt(num2))
+        alert(`${x} + ${y} = ${parseInt(x) + parseInt(y)}`)
 }
 }
 calculate()
 
 // if (operation==="*"){
-//     alert(num1*num2)
+//     alert(x*y)
 // }
 // else if(operation==="-"){
-//     alert(num1 - num2)
+//     alert(x - y)
 // }
 // else if(operation==="/"){
-//     alert(num1/num2)
+//     alert(x/y)
 // }else{
-//     alert(parseInt(num1) + parseInt(num2))
+//     alert(parseInt(x) + parseInt(y))
 // }
